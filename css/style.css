@@ -1,0 +1,132 @@
+body {
+  background-color: #8C8C9C;
+  font-family: 'Russo One';
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: #6441A5;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  color: #8C8C9C;
+  background-color: #19191F;
+  margin-top: 20px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Search */
+#search-container {
+  background-color: #19191F;
+  border-left: 1px solid black;
+  border-right: 1px solid black;  
+}
+
+#search {
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* Main section */
+main {
+  background-color: #19191F;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Main section: Tabs */
+#tabs {
+  margin-top: 10px;
+}
+
+#tabs {
+  display: inline-block;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+  background-color: #6441A5;
+}
+
+.nav-pills > li > a:hover {
+  color: #6441A5;
+  background-color: #8C8C9C;
+}
+
+/* Main section: List */
+#main-list li {
+  margin-top: 5px;
+}
+
+#main-list li a {
+  display: block;
+  height: 100%;
+  margin: 5px;
+}
+
+.list {
+  list-style: none;
+}
+
+.online {
+  color: black;
+  background-color: #4b2d84;
+}
+
+.online a {
+  color: white;
+}
+
+.offline {
+  background-color: #cbafff;
+}
+
+.online, .offline {
+  height: 85px;
+}
+
+.name-display {
+  font-size: 20px;
+}
+
+.error {
+  padding: 5px;
+  color: #6441A5;
+}
+
+/* Icons */
+.fa-twitch {
+  color: #6441A5;
+  margin-top: 10px;
+}
+
+.fa-search {
+  color: #8C8C9C;
+}
+
+.status-icon {
+  margin-right: 5px;
+}
